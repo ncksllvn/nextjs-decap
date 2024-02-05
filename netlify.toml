@@ -2,4 +2,4 @@
   publish = "out"
   command = "npm run build"
   functions = "netlify/functions"
-  environment = { NETLIFY_NEXT_PLUGIN_SKIP = true }
+  environment = { NETLIFY_NEXT_PLUGIN_SKIP = "true" }
